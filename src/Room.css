@@ -2,10 +2,10 @@
   height: 100vh;
 }
 .lit {
-  background-color: aqua;
-  color: blue;
+  background-color: white;
+  color: black;
 }
 .dark {
-  background-color: blue;
-  color: aqua;
+  background-color: black;
+  color: white;
 }

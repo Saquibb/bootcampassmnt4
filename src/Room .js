@@ -3,32 +3,33 @@ import './Room.css';
 
 function Room() {
   let [isLit, setLit] = useState(true);
-  let [age, setAge] = useState(23);
+  let [temp, settemp] = useState(23);
 
   return (
-    <div className={'room $(isLit ? "lit" : "dark"}'}>
+    <div className={`room ${isLit ? 'lit' : 'dark'}`}>
       This room is {isLit ? 'lit' : 'dark'}
       <br />
-      <button onClick={() => setLit(!isLit)}>Toggle Light</button>
+      <button onClick={() => setLit(true)}>Turn On</button>
+      <button onClick={() => setLit(false)}>Turn Off</button>
       <br />
-      age: {age}
+      Temperature: {temp}
       <br />
       <button
         onClick={() => {
           console.log('Age increase arrow function');
-          setAge(++age);
+          settemp(++temp);
         }}
       >
-        Age Increase
+        Increase Temperature
       </button>
       <br />
       <button
         onClick={() => {
           console.log('Age decrease arrow function');
-          setAge(--age);
+          settemp(--temp);
         }}
       >
-        Age decrease
+        Decrease Temperature
       </button>
     </div>
   );
