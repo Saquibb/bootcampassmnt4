@@ -20,7 +20,7 @@ function Room() {
           settemp(++temp);
         }}
       >
-        Increase Temperature
+        Increase Temperature +
       </button>
       <br />
       <button
@@ -29,7 +29,7 @@ function Room() {
           settemp(--temp);
         }}
       >
-        Decrease Temperature
+        Decrease Temperature -
       </button>
     </div>
   );
