@@ -4,6 +4,7 @@
 .lit {
   background-color: white;
   color: black;
+  margin:5px;
 }
 .dark {
   background-color: black;
