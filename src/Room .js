@@ -12,6 +12,7 @@ function Room() {
       <button onClick={() => setLit(true)}>Turn On</button>
       <button onClick={() => setLit(false)}>Turn Off</button>
       <br />
+      <br/>
       Temperature: {temp}
       <br />
       <button
